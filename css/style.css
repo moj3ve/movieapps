@@ -77,22 +77,8 @@ p.lead {
     color: #F78B63 !important;
 }
 
-.button {
-	background-color:#44c767;
-	border-radius:8px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:5px 25px;
-	text-decoration:none;
-}
-.button:hover {
-    background-color:#5cbf2a;
-    text-decoration:none;
-    color:#ffffff;
+.fab {
+    padding-right: 10px;
 }
 
 .light-font {
