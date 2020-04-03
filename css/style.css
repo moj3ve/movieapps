@@ -81,6 +81,11 @@ p.lead {
     padding-right: 10px;
 }
 
+i.spinner-border {
+    width: 1rem;
+    height: 1rem;
+}
+
 .light-font {
     font-weight: 300;
 }
