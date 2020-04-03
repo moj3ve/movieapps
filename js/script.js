@@ -43,7 +43,7 @@ $(function() {
         var that = this;
         $.get("ds/link2.html", function(data, status){
             $(that).find('i').removeClass('spinner-border text-light').addClass('fa-apple');
-            window.open(data);
+            window.location = data;
         });
         return false;
     });
