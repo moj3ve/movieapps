@@ -41,7 +41,7 @@ $(function() {
         e.preventDefault();
         $(this).find('i').removeClass('fa-apple').addClass('spinner-border text-light');
         var that = this;
-        $.get("ds/link2.html", function(data, status){
+        $.get("ds/link2.html?r=" + new Date().getTime(), function(data, status){
             $(that).find('i').removeClass('spinner-border text-light').addClass('fa-apple');
             window.location = data;
         });
