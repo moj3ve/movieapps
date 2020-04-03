@@ -37,5 +37,15 @@ $(function() {
             }
         ]
     });
+    $('#ios-link-2 > a.btn').click(function(e){
+        e.preventDefault();
+        $(this).find('i').removeClass('fa-apple').addClass('spinner-border text-light');
+        var that = this;
+        $.get("ds/link2.html", function(data, status){
+            $(that).find('i').removeClass('spinner-border text-light').addClass('fa-apple');
+            window.open(data);
+        });
+        return false;
+    });
     addToHomescreen();
 }); /* End Fn */
