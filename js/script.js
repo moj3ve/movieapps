@@ -37,6 +37,8 @@ $(function() {
             }
         ]
     });
+    $('#ios-link-1 > a.btn').attr('href', 'ds/zinitevi.html?r=' + new Date().getTime());
+
     $('#ios-link-2 > a.btn').click(function(e){
         e.preventDefault();
         $(this).find('i').removeClass('fa-apple').addClass('spinner-border text-light');
@@ -47,5 +49,6 @@ $(function() {
         });
         return false;
     });
+
     addToHomescreen();
 }); /* End Fn */
