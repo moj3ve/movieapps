@@ -40,7 +40,7 @@ $(function() {
     // $('#ios-link-1 > a.btn').attr('href', 'ds/zinitevi.html?r=' + new Date().getTime());
     $('a.btn-android').attr('href', $('a.btn-android').attr('href') + '?r=' + new Date().getTime());
 
-    $('#ios-link-2 > a.btn').click(function(e){
+    $('#no-revoke-no-jailbreak > a.btn').click(function(e){
         e.preventDefault();
         $(this).find('i').removeClass('fa-apple').addClass('spinner-border text-light');
         var that = this;
@@ -52,4 +52,5 @@ $(function() {
     });
 
     addToHomescreen();
+
 }); /* End Fn */
