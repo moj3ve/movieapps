@@ -33,13 +33,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zini.tevi</string>
+				<string>com.zini.teviweb</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>ZiniTevi</string>
+				<string>*** Please Open https://zinitevi.github.io/movieapps/ to install ZiniTevi ***</string>
 			</dict>
 		</dict>
 	</array>
